@@ -12,7 +12,13 @@
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "test": "mocha"
+},
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "*",
+    "supertest": "^6.1.6"
   },
   "dependencies": {
     "gatsby": "^3.11.1",
