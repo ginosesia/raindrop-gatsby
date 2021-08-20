@@ -1,0 +1,93 @@
+.detail-block {
+  position: relative;
+  width: 100%;
+  max-width: 1296px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 100px;
+  font-family: "Avenirltstd book", sans-serif;
+  color: #141414;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 100;
+}
+
+.inner-detail-block {
+  background-color: #e3f6f5;
+  text-align: center;
+  border-radius: 16px;
+  height: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+}
+
+.contained-section {
+  display: flex;
+}
+
+.pricing-grid {
+  display: grid;
+  min-width: 70vw;
+  justify-content: center;
+  justify-items: center;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 24px;
+  grid-row-gap: 24px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+}
+
+.get-started-button {
+  display: block;
+  flex-direction: column;
+  margin-top: 60px;
+}
+
+.getStarted {
+  background-color: #ae0f3b;
+  margin-right: 10px;
+  margin-left: 10px;
+  min-width: 140px;
+  border: 0;
+  color: white;
+}
+
+.get-started-button a {
+  padding: 22px 30px 22px 30px;
+  justify-content: center;
+  border-radius: 6px;
+  font-family: Avenirltstd, sans-serif;
+  text-align: center;
+  cursor: pointer;
+  border-color: lightgrey;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.display-heading-1 {
+  padding-top: 20px;
+  font-family: Times, sans-serif;
+  font-size: 54px;
+  line-height: 54px;
+  font-weight: 400;
+  margin-bottom: 0;
+  color: #141414;
+  text-decoration: none;
+}
+.display-heading-symbol {
+  position: relative;
+  bottom: 6px;
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 700;
+}
+
+.get-started-button p {
+  margin-top: 50px;
+}

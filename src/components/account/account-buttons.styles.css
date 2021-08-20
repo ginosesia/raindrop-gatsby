@@ -1,0 +1,31 @@
+.account-buttons {
+  float: right;
+  margin-right: 40px;
+}
+
+.account-buttons a {
+  padding: 12px 20px;
+  justify-content: center;
+  border-radius: 6px;
+  font-family: Avenirltstd, sans-serif;
+  text-align: center;
+  cursor: pointer;
+  border-color: lightgrey;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.log_in {
+  background-color: #fff;
+  border: solid 1px;
+  color: black;
+}
+
+.sign_up {
+  background-color: #ae0f3b;
+  margin-right: 10px;
+  margin-left: 10px;
+  min-width: 140px;
+  border: 0;
+  color: white;
+}

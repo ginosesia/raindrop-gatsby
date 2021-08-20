@@ -1,0 +1,47 @@
+.pricing-plan {
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+.pricing-plan-features {
+  display: flex;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 18px;
+  grid-row-gap: 18px;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  justify-content: center;
+}
+
+.pricing-plan-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.checklist-item {
+  margin-bottom: 0;
+  margin-right: 12px;
+  padding-top: 0;
+  padding-bottom: 0;
+  background-color: #ae0f3b;
+  color: #fff;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+}
+
+.check-icon {
+  position: absolute;
+  max-height: 18px;
+}
+
+img {
+  border: 0;
+  max-width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+}
