@@ -19,7 +19,7 @@ export const DetailBlock = () => (
                         <PricingGrid
                             title="When your pension gets to &#62; £100,000"
                             percentage="0.56"
-                            subtitle1="That means £4.67 a month for every £10,000 over £100,00"
+                            subtitle1="That means £4.67 a month for every £10,000 over £100,000"
                             subtitle2="£100k + deposited"
                         />
                     </div>
